@@ -10,7 +10,7 @@ import UIKit
 
 var toDoList = [String]()
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UITableViewDelegate {
 
     @IBOutlet weak var toDoListTable: UITableView!
     override func viewDidLoad() {

@@ -14,6 +14,9 @@ class SecondViewController: UIViewController {
     
     
     @IBAction func addItem(sender: AnyObject) {
+        toDoList.append(item.text)
+        
+        item.text = ""
     }
     
     override func viewDidLoad() {
